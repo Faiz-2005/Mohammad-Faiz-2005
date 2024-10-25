@@ -1,0 +1,54 @@
+.header {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 20px; /* Padding around the header */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    border-bottom: 1px solid #e0e0e0; /* Bottom border for separation */
+}
+
+.header .logo {
+    font-size: 24px; /* Logo font size */
+    font-weight: bold; /* Bold font for logo */
+    color: #007185; /* Logo color */
+}
+
+.header .nav {
+    display: flex; /* Horizontal navigation */
+    gap: 20px; /* Space between nav items */
+}
+
+.header .nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #565656; /* Link color */
+    font-size: 16px; /* Font size for links */
+}
+
+.header .nav a:hover {
+    color: #c73500; /* Change color on hover */
+}
+
+.header .search-bar {
+    display: flex; /* Flexbox for search bar */
+    align-items: center; /* Center items vertically */
+}
+
+.header .search-bar input {
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #cbcbcb; /* Border for input */
+    border-radius: 5px; /* Rounded corners */
+    width: 200px; /* Width of the input */
+}
+
+.header .search-bar button {
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    background-color: #FFD814; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.header .search-bar button:hover {
+    background-color: #FFA41C; /* Darker button color on hover */
+}
